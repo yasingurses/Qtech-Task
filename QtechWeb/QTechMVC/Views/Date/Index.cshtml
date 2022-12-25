@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "izin";
+    Layout = null;
+}
+@using EntityLayer.Concrete
+@model Users
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous" />
+    <title>Tarih Seçme</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="form-group">
+            <label for="baslangicTarihi">Başlangıç Tarihi</label>
+            <input type="date" class="form-control" id="baslangicTarihi" />
+        </div>
+        <div class="form-group">
+            <label for="bitisTarihi">Bitiş Tarihi</label>
+
+            <input type="date" class="form-control" id="bitisTarihi" />
+        </div>
+        <button type="button" class="btn btn-primary" id="tarihHesapla">Tarih Hesapla</button>
+    </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"  crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+  integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY="
+  crossorigin="anonymous"></script>     
+     
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            var model = @Html.Raw(Json.Serialize(Model));
+            console.log(model)
+            $("#tarihHesapla").click(function () {
+                var baslangicTarihi = new Date($("#baslangicTarihi").val());
+                var bitisTarihi =
+                    new Date($("#bitisTarihi").val());
+                var isGunuSayisi = 0;
+
+                while (baslangicTarihi <= bitisTarihi) {
+                    if (baslangicTarihi.getDay() !== 0 && baslangicTarihi.getDay() !== 6) {
+                        isGunuSayisi++;
+                    }
+                    baslangicTarihi.setDate(baslangicTarihi.getDate() + 1);
+                }
+                        var modelData = model.userLimit;
+                if (isGunuSayisi >= modelData) {
+                    alert("Yeterli izin bakiyeniz bulunmamaktadır");
+                 }else{
+                    alert("İzin talebiniz iletilmiştir");
+
+                 }
+               
+                 
+            });
+        });
+
+
+
+    </script>
+
+    @await Component.InvokeAsync("NToastNotify")
+</body>
+</html>
+
