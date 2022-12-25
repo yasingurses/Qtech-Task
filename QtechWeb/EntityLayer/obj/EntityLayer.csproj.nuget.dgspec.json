@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\EntityLayer\\EntityLayer.csproj": {}
+    "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\EntityLayer\\EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\EntityLayer\\EntityLayer.csproj",
+        "projectPath": "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\EntityLayer\\EntityLayer.csproj",
         "packagesPath": "C:\\Users\\Yasin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",

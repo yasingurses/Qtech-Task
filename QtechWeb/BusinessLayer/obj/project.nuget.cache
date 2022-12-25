@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hyPXvqXTfJd/yr2nQqtM2JHK1FnsLi5xVhKkyfxAmRxkKL5TmKFN5AE2BHs7q/3Rl8VD9KxFeh/sp+H0ZnULoQ==",
+  "dgSpecHash": "8jWPU6eCuxiW1QjlH+sO9TjblkEprBSLbUcho+EcaRN0sQBEYkbI/3JeW4ctEE+xUWUARM7y7th6ATPqVKA1WQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

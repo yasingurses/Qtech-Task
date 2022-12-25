@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JBaAF0XGPPYCutHacLxes39wuABB8yK9h0umcML++qZUSjZWxVhbA54Bzy43HPb0jefabczesr7mSmcmNk3JJQ==",
+  "dgSpecHash": "s+OoJijy3+78Yt9kRp6DbXYtazdMFIjcgTx6YewZ7Sm8fxhp0g/VjOR9ANQmQRIdeHKknJtzgNHu/jcypQRO9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\DataAccesLayer\\DataAccesLayer.csproj",
+  "projectFilePath": "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\DataAccesLayer\\DataAccesLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yasin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

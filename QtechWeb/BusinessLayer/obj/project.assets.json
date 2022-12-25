@@ -5977,11 +5977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\BusinessLayer\\BusinessLayer.csproj",
+      "projectPath": "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\BusinessLayer\\BusinessLayer.csproj",
       "packagesPath": "C:\\Users\\Yasin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\BusinessLayer\\obj\\",
+      "outputPath": "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yasin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5998,8 +5998,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\DataAccesLayer\\DataAccesLayer.csproj": {
-              "projectPath": "C:\\Users\\Yasin\\Desktop\\Qtech\\QtechWeb\\DataAccesLayer\\DataAccesLayer.csproj"
+            "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\DataAccesLayer\\DataAccesLayer.csproj": {
+              "projectPath": "C:\\Users\\Yasin\\Desktop\\Qtech-Task\\QtechWeb\\DataAccesLayer\\DataAccesLayer.csproj"
             }
           }
         }
